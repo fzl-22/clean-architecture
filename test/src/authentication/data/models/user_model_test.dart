@@ -64,4 +64,16 @@ void main() {
       expect(result, equals(tJson));
     });
   });
+
+  group('copyWith', () {
+    test('Should return a [UserModel] with different data', () {
+      // Arrange
+
+      // Act
+      final result = tModel.copyWith(name: "Paul");
+
+      // Assert
+      expect(result.name, equals("Paul"));
+    });
+  });
 }
