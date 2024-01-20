@@ -12,7 +12,7 @@ import 'package:tdd_tutorial/core/errors/failure.dart';
 import 'package:tdd_tutorial/src/authentication/domain/repositories/authentication_repository.dart';
 import 'package:tdd_tutorial/src/authentication/domain/usecases/create_user.dart';
 
-import 'authentication_repository.mock.dart';
+import '../repositories/authentication_repository.mock.dart';
 
 
 
